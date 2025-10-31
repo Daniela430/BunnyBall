@@ -45,8 +45,7 @@ public class Player : MonoBehaviour
     }
     private void OnCollisionExit(Collision other)
     {
-        if (other.gameObject.CompareTag("Ground"))
-        {
+        if (other.gameObject.CompareTag("Ground"))        
             isGrounded = false;
         }
     }
