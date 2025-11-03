@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public float speed = 10f;
     public int jumpForce = 100;
     private int x = 0;
+    private int y = 0;
     private bool isGrounded = false;
 
     void Update()
